@@ -1,1 +1,1 @@
-Сайт konsultant.ru
+Сайт konsultant по юридическим услугам
