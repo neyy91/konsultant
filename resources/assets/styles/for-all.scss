@@ -1,0 +1,116 @@
+h1,
+.h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.col-0 {
+    padding: 0;
+}
+.col-psm {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+// bootstrap
+.checkbox,
+.radio {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.input-xs {
+  height: 22px;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 1.5; /* If Placeholder of the input is moved up, rem/modify this. */
+  border-radius: 3px;
+}
+// /bootstrap
+
+.required-field {
+    font-size: 8px;
+    vertical-align: super;
+}
+.table {
+    .date {
+        white-space: nowrap;
+    }
+    .action {
+        text-align: center;
+        width: 1%;
+    }
+}
+
+.table-admin {
+    td, th {
+        white-space: nowrap;
+    }
+    tbody > tr > td {
+        vertical-align: middle
+    }
+    .normal {
+        white-space: normal;
+    }
+    tbody > tr > td.top {
+        vertical-align: top;
+    }
+}
+
+// toggle collapse
+.toggle-collapse {
+    .show-text,
+    .show-text-block,
+    &.notoggled .hide-text,
+    &.notoggled .hide-text-block,
+    &.collapsed .hide-text,
+    &.collapsed .hide-text-block {
+        display: none;
+    }
+    &.collapsed .show-text-block,
+    &.notoggled .show-text-block {
+        display: block;
+    }
+    &.collapsed .show-text,
+    &.notoggled .show-text {
+        display: inline;
+    }
+}
+.toggle-text {
+    @extend .toggle-collapse;
+}
+
+.script-action {
+    &,
+    &:focus,
+    &.toggle-collapse.collapsed,
+    &.toggle-collapse.state.collapsed {
+        text-decoration: none;
+        border-bottom: 1px dashed;
+        font-weight: normal;
+    }
+    &.toggle-collapse.state {
+        font-weight: bold;
+    }
+    &:hover,
+    &.toggle-collapse.collapsed.state:hover {
+        border-bottom-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.hide-toggle,
+.hide-iblock-toggle,
+.hide-block-toggle {
+    display: none;
+}
+.hide-toggle.collapsed,
+.hide-iblock-toggle.collapsed,
+.hide-block-toggle.collapsed {
+    display: inline;
+}
+
+
+.popover {
+    .close {
+        margin: 5px 10px 0 0;
+    }
+}

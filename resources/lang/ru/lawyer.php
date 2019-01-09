@@ -1,0 +1,26 @@
+<?php 
+
+return [
+    'title' => 'Юристы',
+    'about' => 'Юрист',
+    'lawyers' => 'Юристы',
+    'expert' => 'Эксперт',
+    'all_lawyers' => 'Все юристы',
+    'not_found' => 'Ни одного юрист не найдено...',
+    'all_lawyers_city' => 'Все юристы по городу :city',
+    'all_lawyers_category' => 'Все юристы специализации :category',
+    'all_lawyers_project' => 'Все юристы проекта',
+    'select_lawyers_by_city' => 'Выбор юриста по городу',
+    'show_all_specializations' => 'Показать все специализации',
+    'select_specialization_lawyer' => 'Выберите специализацию юриста',
+    '_satisfied_customers' => 'довольных клиентов',
+    'cost_of_services' => 'Стоимость услуг',
+    'lawyer_help?' => 'Юрист помог вам?',
+    'lawyer_help_description' => 'Поддержите его! Отправьте в благодарность небольшую денежную сумму.',
+    'specialization' => 'Специализация',
+    'search_lawyers_city_specialization' => 'Найдите юриста по городу и специализации',
+    'all_lawyers_category_city' => 'Все юристы категории :category по городу :city',
+    'select_lawyers_by_city' => 'выбор юриста по городу',
+    'contact_lawyer' => 'Обратиться к юристу',
+    'consultations_from_lawyers_advocate' => 'Консультации от :count юристов и адвокатов',
+];

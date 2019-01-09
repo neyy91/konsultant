@@ -1,0 +1,24 @@
+{
+  "name": "konsultant.ru",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Karen Kratyan <kratkar@yandex.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://kratkar.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.*",
+    "jquery" : "1.*",
+    "jquery-serialize-object": "2.5.*",
+    "js-cookie": "^2.1.4"
+  }
+}

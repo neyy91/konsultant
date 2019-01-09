@@ -1,0 +1,529 @@
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form {
+    textarea {
+        resize: vertical
+    }
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.alert {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    ul {
+        padding-left: 20px;
+    }
+}
+
+.breadcrumb > li {
+    color: #999;
+}
+.breadcrumb > .active {
+    color: #333;
+}
+
+.clarifies {
+    margin-left: 20px;
+    &-answer {
+        padding-bottom: 20px;
+    }
+    .toggle-clarifies {
+        margin-left: 10px;
+    }
+}
+.complain-form {
+    margin-top: 15px;
+    .radio-type label {
+        display: block;
+    }
+}
+.answers {
+    position: relative;
+    z-index: 10;
+    .lawyer {
+        margin-top: 0;
+    }
+}
+.collapse-reply-answer {
+    padding-top: 15px;
+}
+
+.position-target {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
+
+.clarify-answer-form {
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.form-inject {
+    display: inline-block;
+}
+
+.messages {
+    &-row,
+    &-container,
+    &-fixed
+    {
+        height: 1px;
+    }
+    &-container {
+        position: relative;
+        min-height: 0;
+        overflow: hidden;
+        }
+    &-fixed {
+        display: none;
+        position: fixed;
+        top: 10px;
+        left: 0;
+        right: 0;
+        z-index: 2000;
+    }
+    &-row {
+        margin-right: 0;
+    }
+}
+
+// pay service
+.pay-service {
+    .pay-item {
+        display: block;
+        cursor: pointer;
+        font-weight: normal;
+    }
+}
+.pay-service-call {
+    .panel-footer {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+
+.price-old {
+    text-decoration: line-through;
+}
+
+.pay-need {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.form-question {
+    legend {
+        text-transform: uppercase
+    }
+}
+
+// fields
+.status {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+.article {
+    margin-top: 30px;
+    .title-question,
+    .title-document,
+    .title-call {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+.description-page {
+    margin-bottom: 20px;
+}
+
+.pane-type-left-info {
+    .photo {
+        margin-right: 10px;
+    }
+}
+
+.form-logout {
+    padding: 3px 20px;
+    &:hover,
+    &:focus {
+        background-color: #f5f5f5
+    }
+    .btn {
+        padding: 3px 0;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.user-orders {
+    .article-title {
+        display: inline-block;
+    }
+}
+
+.user-edit-index {
+    li {
+        & > a {
+            font-size: 14px;
+            padding: 7px 10px;
+        }
+    }
+}
+
+.form-label-block {
+    .control-label {
+        display: block;
+    }
+}
+
+.form-control-multiple,
+.input-group-multiple {
+    margin-bottom: 5px;
+}
+.input-group-multiple .form-control-multiple {
+    margin-bottom: 0;
+}
+
+.profile-photo {
+    margin-right: 10px;
+}
+
+.user-edit-chat {
+    .col-from {
+        text-align: right;
+        padding-top: 5px;
+    }
+    .col-to {
+        text-align: center;
+        padding-top: 5px;
+    }
+    .row-weekdays {
+        padding-bottom: 10px;
+    }
+}
+
+.user-edit-honor-items {
+    .honor-col {
+        padding-right: 5px;
+    }
+    .honor-item {
+        height: 200px;
+        border: 1px solid #ccc;
+        text-align: center;
+        color: #ccc;
+        background-size: auto 200px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    .honor-delete {
+        display: inline-block;
+    }
+    .honor-icon {
+        font-size: 100px;
+        line-height: 200px;
+        display: none;
+    }
+}
+.user-edit-honor-empty {
+    .honor-icon {
+        display: inline-block;
+    }
+    .honor-delete {
+        display: none;
+    }
+}
+
+.lawyer-name {
+    margin-top: 0;
+}
+.city-list-group {
+    margin: -10px -15px;
+    border: none;
+    .city-link {
+        border-width: 1px 0 0;
+    }
+    .city-link:first-child {
+        border-top: none;
+    }
+}
+.profile-lawyer-specialization-panel {
+    .specialization-diagram {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 10px solid #ccc;
+    }
+    .specialization-procent {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+.profile-lawyer {
+    .like-item {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid;
+    }
+}
+
+.badge.right {
+    margin-left: 10px;
+    float: right;
+}
+
+.btn {
+    .badge {
+        margin-top: 2px;
+    }
+}
+
+.dropdown-style {
+    .icon-up {
+        display: none;
+    }
+    &.open {
+        .icon-down {
+            display: none;
+        }
+        .icon-up {
+            display: inline-block;
+        }
+    }
+}
+.btn {
+    .icon-up,
+    .icon-down {
+        // line-height: 18px;
+        vertical-align: middle;
+    }
+}
+
+.list-group-item {
+    & > .badge.noalign {
+        float: none;
+    }
+}
+
+.categories-management-items {
+    .right-offset {
+        width: 70px;
+        text-align: right;
+    }
+}
+
+.form-categories-update {
+    display: none;
+}
+
+.show-all-spec {
+    display: none;
+    &.collapsed {
+        display: block;
+    }
+}
+
+.typeahead {
+    &.popover {
+        width: 100%;
+        // height: 300px;
+        max-height: 100%;
+    }
+}
+
+.like-popover {
+    width: 400px;
+    max-width: 100%;
+    .form-like {
+        display: none;
+    }
+    .form-like.form-active {
+        display: block;
+    }
+}
+
+.lawyers-filter-category-dropdown {
+    .items {
+        height: 400px;
+        overflow: auto;
+    }
+    .child-item-link {
+        padding-left: 40px;
+    }
+}
+
+.home-lawyers {
+    .line {
+        display: block;
+    }
+    .lawyer {
+        display: block;
+        float: left;
+        margin-left: 20px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.form-registration {
+    .as-hide {
+        display: none;
+    }
+    .client-description {
+        display: block;
+    }
+}
+#chatUserTemplate {
+    display: none;
+}
+.chat-page {
+    .form {
+        margin-top: 15px;
+    }
+}
+.chat-messages {
+    max-height: 500px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    .chat-day {
+        text-align: center;
+    }
+    .chat-messages-items {
+        margin: 0;
+    }
+}
+.chat-message {
+    &.popover {
+        position: relative;
+        display: block;
+        max-width: 100%;
+        z-index: 1;
+        margin-top: 0;
+        box-shadow: none;
+    }
+    &.message-incoming {
+        background-color: #f5f5f5;
+    }
+    &.message-incoming.popover.right > .arrow:after {
+        border-right-color: #f5f5f5;
+    }
+    &.message-outgoing {
+    }
+    &.message-break {
+        margin-top: 15px;
+    }
+    &.message-continue {
+        margin-top: 3px;
+    }
+    .chat-date {
+        position: relative;
+        right: -5px;
+        bottom: -10px;
+        font-style: italic;
+    }
+    .message-content {
+        padding: 5px 10px;
+    }
+    &.message-incoming.message-unviewed .message-text {
+        font-weight: bold;
+    }
+}
+
+.dialogs {
+    .dialog {
+        display: block;
+    }
+    .dialog-active {
+        background-color: #f5f5f5;
+    }
+    .dialog-media {
+        display: block;
+    }
+
+}
+
+.rating-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.chat-fixed {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    margin-bottom: 0;
+    max-width: 300px;
+    width: 100%;
+    z-index: 1100;
+}
+.dialog-messages {
+    margin-right: -10px;
+}
+.dialog-user-modal {
+    left: auto;
+    top: auto;
+    right: 350px;
+    bottom: 0;
+    display: none;
+
+    .dialog-messages-wrap {
+        max-height: 300px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+.user-chats {
+    .name {
+        margin: 0 0 5px;
+    }
+}
+
+.answer-cost {
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-weight: bold
+}
+
+.question-answer-rate-label {
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.status-pay {
+    .price{
+        font-weight: bold;
+    }
+}
+
+.answer-for-document {
+    &.answer-is {
+        .answer-clarifies {
+            display: block;
+        }
+        .action-clarifies {
+            display: none !important;
+        }
+    }
+}
